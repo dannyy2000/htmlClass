@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+header {
+    background-color: #ffe5ce;
+  }
+  
+  a:link,
+  a:visited {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #444;
+    padding: 20px;
+    display: inline-block;
+  }
+  a:hover {
+    color: #fbb270;
+  }
+  
+  a:link:last-child {
+    padding-right: 0;
+  }
+  
+  nav {
+    width: 80%;
+    /* background: #000; */
+    /* margin-right: auto;
+    margin-left: auto;
+    margin: 0 auto; */
+    margin-inline: auto;
+  }
+
+  body{
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
